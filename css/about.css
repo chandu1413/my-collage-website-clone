@@ -1,0 +1,61 @@
+#section-about{
+   padding: 40px;
+   background-color: #dbddf1;
+}
+#section-about h1{
+    font-family: 'Patua One', cursive;
+    text-decoration: underline;
+    font-weight: 300px;
+    border-radius: 30px;
+    font-size: 5vw;
+    color: blue;
+}
+#section-about h2{
+    margin: 40px;
+    text-align: center;
+}
+#section-vmq{
+    padding: 40px;
+   background-color: aqua;
+ }
+ #section-vmq h2{
+    margin: 40px;
+    text-align: center;
+    background-color: rgb(205, 227, 62);
+    border: 1px solid black;border-radius: 5px;
+    padding: 10px;
+    text-decoration: underline;
+}
+.vmq{
+    margin: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+#section-vmq p{
+    font-size: larger;
+    text-align: justify;  
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500px;
+    margin: 30px;
+}
+#section-about p{
+    font-size: larger;
+    text-align: justify;  
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500px;
+}
+#section-about ul li{
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+}
+.vision{
+    border: 1px solid black;
+}
+.mission{
+    border: 1px solid black;
+}
+.quality{
+    border: 1px solid black;
+    
+}

@@ -1,0 +1,123 @@
+.container{
+    width:1000px;
+    height:auto;
+    margin: auto;
+}
+@media screen and (max-width:999px) {
+
+    .container{
+        width:100%;
+        height:auto;  
+    }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    }
+.logo{
+    width:100%;
+    height: auto;
+}   
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 80px;
+}
+.head-1{
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 6px;
+}
+.head-1:hover{
+    opacity:2px ;
+    cursor: pointer;
+}
+.head1-2{
+    border:0px solid black;
+    padding: 5px;
+    text-shadow: 10px #000;
+}
+.head1-2:hover{
+    color:white ;
+    background-color: rgb(201, 205, 92);
+    border-radius: 50px;
+    border:2px solid ;
+    text-decoration: none;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+ .card-text{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+ }
+.video-title{
+    font-family: 'Barlow', sans-serif;  
+    padding:25px ;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: justify;
+ 
+}
+.video-title:hover{
+    color: #000;
+    background-color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.video-sub-title{
+    font-family: 'Inconsolata', monospace;
+    text-align: justify;
+    margin-bottom: 35px;
+    padding: 15px;
+}
+.texth1{
+    size: 100px;
+}
+.y-video{
+    width: 100wh;
+    height: 80vh;
+    background-image: url(/images/background/college-hall-spires-pacific.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fbg{
+    width: 50wh;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-count: 2;
+}
+
+.line{
+    width: 180px;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+}   
+.line2:hover{
+    background-color: bisque;
+}
+.line2{
+    width: 30vw;
+    height: 3px;
+     margin: 10px  auto;
+     border-radius: 5px;
+}
+.footerp{
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    text-align: justify;
+    align-items: center;
+}
+.logo{
+   padding-left: 10px;
+   align-items: center;
+}

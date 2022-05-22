@@ -1,0 +1,155 @@
+
+.depbg{
+    background-repeat: no-repeat;
+ background-blend-mode: lighten;
+ background-size: 100%;
+ background-position-y: center;
+ max-width: 100%;
+ height: 50vh;
+ position: relative;
+   }
+   
+ .bghead{
+    padding: 100px;
+    font-size: 4vw;   
+    font-family: 'Patua One', cursive;
+    text-decoration: underline;
+}
+
+.faraimg{
+    width:200px;
+    height:auto;
+    align-items: center;
+    float:right;
+}
+.vmhead{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Patua One', cursive;
+    margin-top: 30px;
+}
+@media screen and (max-width:999px){
+    .headh1{
+        width: 100%;
+        height:auto;
+        margin: auto;
+    }
+    .depbg{
+        width: 100%;
+        height: auto;
+    }
+    .depbg1{
+        width: 100%;
+        height: auto;
+    }
+    .bghead{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}    
+#section-about-dep h1{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline black;
+    color: rgb(213, 11, 11);
+    background-color: lightgreen;
+    font-family: 'Patua One', cursive;
+    border-radius:50px;
+    border-style: hidden;
+   padding: 10px;
+}
+#section-about-dep h1:hover{
+    box-sizing: content-box;
+}
+.about-dep p{
+    padding: 5px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 30px;
+    font-size: large;
+    text-align: justify;  
+    font-family: 'Baloo 2', cursive;
+}
+#section-vm-dep  {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 18px;
+    border-collapse: separate;
+}
+#section-vm-dep h2{
+    text-align: center;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aquamarine;
+    font-family: 'Patua One', cursive;
+    padding: 1%;
+    text-overflow: ellipsis;
+    align-items: center;
+    width:500px;
+    box-sizing: content-box;
+}
+#section-vm-dep h2:hover{
+    background-color: yellow;
+    text-align: center;
+    display: flexbox;
+    align-items: flex-end;
+}
+#section-vm-dep p {
+    font-family: 'Baloo 2', cursive;
+    font-size: larger;
+}
+#section-vm-dep ol li{
+    
+    font-family: 'Baloo 2', cursive;
+}
+#section-table h2{
+    color: tomato;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    text-decoration: underline black;
+}
+.hodh2{
+   color: #6f2c87;
+   padding: 5px;
+    margin-bottom: 30px;
+   font-family: 'Patua One', cursive;
+   text-decoration: underline dotted black;
+}
+.hodh2:hover{
+    background-color: rgb(221, 223, 144);
+    border-radius: 100px;
+}
+
+.hod p {
+    text-align: justify;
+    font-family: 'Baloo 2', cursive;
+    padding: 5px;
+    font-size: large;
+    margin-left: 40px;
+    margin-right: 40px;
+     font-size: large;
+     text-align: justify;  
+}
+#courses {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #courses td, #courses th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: 'Baloo 2', cursive;
+ }
+#courses tr:nth-child(even){background-color: #f2f2f2;}
+ #courses tr:hover {background-color: #ddd;}
+#courses th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
